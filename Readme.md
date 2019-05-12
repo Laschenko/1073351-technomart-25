@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Олег Лащенко](https://up.htmlacademy.ru/htmlcss/25/user/1073351).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora)
 
 ---
 
