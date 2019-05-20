@@ -10,9 +10,9 @@
                 <a class="logo">
                     <img src="img/logo.svg" width="220" height="47" alt="Логотип Техномарта на главной странице">
                 </a>
-                <form action="#" method="get" enctype="multipart/form-data">
-                    <input type="search" id="search" name="search" placeholder="Поиск:">
-                    <label class="search-label" for="search"></label>
+                <form class="search" action="https://echo.htmlacademy.ru" method="get" enctype="multipart/form-data">
+                    <label class="visually-hidden" for="search">Поиск</label>
+                    <input class="main-search" type="search" id="search" name="search" placeholder="Поиск:">
                 </form>
                 <a class="bookmarks" href="#">Закладки:0</a>
                 <a class="basket" href="#">Корзина:0</a>
@@ -65,9 +65,39 @@
                     заехав к нам в офис:
                 </p>
                 <a class="map-store" href="#">
-                    <img src="img/map-store.png" width="300" height="158" alt="Карта магазина">
+                    <img src="img/map-store.png" width="300" height="158" 
+                    alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-петербург">
                 </a>
                 <a class="message-sending-button" href="#">Заблудились? Напишите нам!</a>
+            </section>
+            <section class="modal modal-map">
+                <h2 class="visually-hidden">
+                    Как до нас добраться
+                </h2>
+                <p>
+                    <img src="img/map-store.png" width="600" height="316" 
+                    alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-петербург">
+                </p>
+                <button class="modal-close" type="button">
+                    Закрыть
+                </button>
+            </section>
+            <section class="modal modal-sending-message">
+                <h2 class="visually-hidden">Отправка письма,для компании</h2>
+                <form class="sending-message" action="https://echo.htmlacademy.ru" method="post">
+                    <label>
+                        Ваше имя:
+                        <input class="user-name" type="text" name="user-name" placeholder="Имя Фамилия">
+                    </label>
+                    <label>
+                        Ваш e-mail:
+                        <input class="user-email" name="user-email" type="email" placeholder="email@example.com">
+                    </label><br>
+                    <label> 
+                        Текст письма:
+                        <textarea name="comment"> В свободной форме</textarea>
+                    </label>     
+                </form>
             </section>
         </main>
         <footer class="main-footer">
