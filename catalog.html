@@ -3,23 +3,29 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Техномарт</title>
+        <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&display=swap&subset=cyrillic"
+         rel="stylesheet">
+         <link href="css/normalize.css" rel="stylesheet">
+         <link href="css/technomart.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="inner-page">
         <header class="main-header">
             <div class="header-up">
                 <a class="logo" href="index.html">
                     <img src="img/logo.svg" width="220" height="47" alt="Логотип Техномарта на главной странице">
                 </a>
-                <form action="#" method="get" enctype="multipart/form-data">
-                    <input type="search" id="search" name="search" placeholder="Поиск:">
-                    <label class="search-label" for="search"></label>
+                <form class="search" action="https://echo.htmlacademy.ru" method="get" enctype="multipart/form-data">
+                    <label class="visually-hidden" for="search">Поиск</label>
+                    <input class="main-search" type="search" id="search" name="search" placeholder="Поиск:">
                 </form>
                 <a class="bookmarks" href="#">Закладки:0</a>
-                <a class="basket" href="#">Корзина:0</a>
-                <a class="Checkout" href="#">Оформить заказ</a>
+                <a class="basket" href="#">Корзина:10</a>
+                <a class="checkout" href="#">Оформить заказ</a>
             </div>
             <p class="main-title">
-                Интеренет-магазин строительных материалов и инструментов для ремонта
+                Интеренет-магазин<br>
+                 строительных материалов<br>
+                  и инструментов для ремонта
             </p>
             <div class="contacts">
                 <a class="contact-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
@@ -221,10 +227,10 @@
             </section>
             <section class="modal modal-add-product-to-cart">
                 <h3 class="headline-add-product-to-cart">Товар добавлен в корзину!</h3>
-                <button class="button button-checkout" type="button">Оформить заказ</button>
+                <a href="#" class="button button-checkout">Оформить заказ</a>
                 <button class="button button-continue-shopping" type="button">Продолжить покупки</button>
                 <button class="button button-close" type="button">
-                    <span class="visually-hidden">Кнопка закрытия</span>
+                    Кнопка закрытия
                 </button>
             </section>
         </main>
@@ -252,25 +258,25 @@
                     <li><a href="#">Спецпредложения</a></li>
                 </ul>
             </div>    
-            <p class="footer-licence">
-                © 2010-2016 Компания «Техномарт»<br>
-                Все права защищены  
-            </p>
-            <div class="footer-social">
-                <ul>
-                    <li><a class="social-button" href="#">Вконтакте</a></li>
-                    <li><a class="social-button" href="#">Фейсбук</a></li>
-                    <li><a class="social-button" href="#">Инстограм</a></li>
+            <div class="footer-bottom">
+                <p class="footer-licence">
+                    © 2010-2016 Компания «Техномарт»<br>
+                    Все права защищены  
+                </p>
+                <ul class="footer-social">
+                        <li><a class="social-button" href="#">Вконтакте</a></li>
+                        <li><a class="social-button" href="#">Фейсбук</a></li>
+                        <li><a class="social-button" href="#">Инстограм</a></li>
                 </ul>
+                <p class="footer-feedback">
+                    Обратная связь:<br>
+                    <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+                </p>
+                <p class="footer-copyright">
+                    Разработано —<br>
+                    <a href="#">htmlacademy.ru</a>
+                </p>
             </div>
-            <p class="footer-feedback">
-                Обратная связь:<br>
-                <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-            </p>
-            <p class="footer-copyright">
-                Разработано —<br>
-                <a href="#">htmlacademy.ru</a>
-            </p>
         </footer>
     </body>
 </html>

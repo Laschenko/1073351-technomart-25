@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Техномарт</title>
+        <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&display=swap&subset=cyrillic"
+         rel="stylesheet">
+         <link href="css/normalize.css" rel="stylesheet">
+         <link href="css/technomart.css" rel="stylesheet">
     </head>
     <body>
         <header class="main-header">
@@ -16,9 +20,11 @@
                 </form>
                 <a class="bookmarks" href="#">Закладки:0</a>
                 <a class="basket" href="#">Корзина:0</a>
-                <a class="Checkout" href="#">Оформить заказ</a>
+                <a class="checkout" href="#">Оформить заказ</a>
             </div>
-            <h1 class="main-title">Интеренет-магазин строительных материалов и инструментов для ремонта</h1>
+            <h1 class="main-title">Интеренет-магазин<br>
+                 строительных материалов<br>
+                  и инструментов для ремонта</h1>
             <div class="contacts">
                 <a class="contact-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
                 <address class="address">
@@ -56,7 +62,7 @@
                     <li>Автотрейдинг</li>
                     <li>ЖелДорЭкспедиция</li>
                 </ul>
-                <a class="Company-info-button" href="#">Подробнее о компании</a>
+                <a class="button Company-info-button" href="#">Подробнее о компании</a>
             </section>
             <section class="contacts-store">
                 <h2>Контакты</h2>
@@ -68,7 +74,7 @@
                     <img src="img/map-store.png" width="300" height="158" 
                     alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-петербург">
                 </a>
-                <a class="message-sending-button" href="#">Заблудились? Напишите нам!</a>
+                <a class="button message-sending-button" href="#">Заблудились? Напишите нам!</a>
             </section>
             <section class="modal modal-map">
                 <h2 class="visually-hidden">
@@ -92,7 +98,7 @@
                     <label>
                         Ваш e-mail:
                         <input class="user-email" name="user-email" type="email" placeholder="email@example.com">
-                    </label><br>
+                    </label>
                     <label> 
                         Текст письма:
                         <textarea name="comment"> В свободной форме</textarea>
@@ -123,23 +129,25 @@
                     <li><a href="#">Спецпредложения</a></li>
                 </ul>
             </div>    
-            <p class="footer-licence">
-                © 2010-2016 Компания «Техномарт»<br>
-                Все права защищены  
-            </p>
-            <ul class="footer-social">
-                    <li><a class="social-button" href="#">Вконтакте</a></li>
-                    <li><a class="social-button" href="#">Фейсбук</a></li>
-                    <li><a class="social-button" href="#">Инстограм</a></li>
-            </ul>
-            <p class="footer-feedback">
-                Обратная связь:<br>
-                <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-            </p>
-            <p class="footer-copyright">
-                Разработано —<br>
-                <a href="#">htmlacademy.ru</a>
-            </p>
+            <div class="footer-bottom">
+                <p class="footer-licence">
+                    © 2010-2016 Компания «Техномарт»<br>
+                    Все права защищены  
+                </p>
+                <ul class="footer-social">
+                        <li><a class="social-button" href="#">Вконтакте</a></li>
+                        <li><a class="social-button" href="#">Фейсбук</a></li>
+                        <li><a class="social-button" href="#">Инстограм</a></li>
+                </ul>
+                <p class="footer-feedback">
+                    Обратная связь:<br>
+                    <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+                </p>
+                <p class="footer-copyright">
+                    Разработано —<br>
+                    <a href="#">htmlacademy.ru</a>
+                </p>
+            </div>
         </footer>
     </body>
 </html>
