@@ -2,8 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Cuprum', Arial, sans-serif;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: 'Cuprum','PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 700;
@@ -17,8 +16,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Cuprum', Arial, sans-serif;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: 'Cuprum','PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 700;
@@ -139,7 +137,7 @@ a {
 }
 
 .login-authorization-button a,
-.login-Registration-button a {
+.login-registration-button a {
   color: #000000;
   font-size: 21px;
   line-height: 21px;
@@ -149,9 +147,9 @@ a {
 }
 
 .login-authorization-button a:focus,
-.login-Registration-button a:focus,
 .login-authorization-button a:hover,
-.login-Registration-button a:hover {
+.login-registration-button a:focus,
+.login-registration-button a:hover {
   color: #ee3643;
   font-size: 21px;
   line-height: 21px;
@@ -161,7 +159,7 @@ a {
 } 
 
 .login-authorization-button a:active,
-.login-Registration-button a:active {
+.login-registration-button a:active {
   color: #000000;
   font-size: 21px;
   line-height: 21px;
@@ -325,7 +323,7 @@ a {
   opacity: 0.3;
 }
 
-.inner-page .container-title .filter-button {
+.container .filter-button {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
