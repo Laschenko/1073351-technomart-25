@@ -70,16 +70,16 @@ a {
 .container {
   margin-right: auto;
   margin-left: auto;
-  width: 940px;
-  
+  width: 960px;
+  padding: 0 10px;
 }
 
 .header-up {
+  font-family: 'Cuprum';
   display: flex;
   justify-content: space-between;
   width: 100%;
   min-height: 40px;
-  padding: 0 10px;
   margin: 0 auto;
   margin-bottom: 45px;
   align-items: center; 
@@ -153,6 +153,7 @@ a {
   font-size: 16px;
   line-height: 23px;
   color: #ee3643;
+  font-family: 'Arial';
 }
 
 .contacts {
@@ -168,6 +169,11 @@ a {
   padding-left: 42px;
 
   border: 3px solid #ffffff;
+}
+
+.address {
+  font-family: 'Cuprum';
+  font-style: normal;
 }
 
 .contacts .address {
@@ -187,6 +193,7 @@ a {
 
 .login-authorization-button a,
 .login-registration-button a {
+  font-family: 'Cuprum';
   color: #000000;
   font-size: 21px;
   line-height: 21px;
@@ -219,18 +226,19 @@ a {
 } 
 
 .main-navigation {
+  font-family: 'Cuprum';
   padding-top: 10px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 60px; 
-  width: 940px;
+  width: 960px;
   height: 50px;
   background-color: #32425C;
   box-shadow: 0px 5px 0px #293449;
 }
 
 .main-navigation li {
-  width: 940px;
+  width: 960px;
   list-style: none;
 }
 
@@ -276,6 +284,14 @@ a {
   width: 520px;
 }
 
+.company-description h2{
+  font-family: 'Cuprum';
+}
+
+.company-description p {
+  font-family: 'PT Sans';
+}
+
 .company-description li {
   list-style: none;
   font-size: 18px;
@@ -286,6 +302,14 @@ a {
 .contacts-store {
   
   width: 300px;
+}
+
+.contacts-store h2 {
+  font-family: 'Cuprum';
+}
+
+.contacts-store p {
+  font-family: 'PT Sans';
 }
 
 .button {
@@ -342,6 +366,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 380px;
+  font-family: 'PT Sans';
 }
 
 .breadcrumbs li {
@@ -354,7 +379,8 @@ a {
   color: #000000;
 }
 
-.container-title h1 {
+.products {
+  font-family: 'Cuprum';
   color: #32425c;
   padding-top: 33px;
   padding-left: 30px;
@@ -363,9 +389,15 @@ a {
   background-color: #F2F6F8;
 }
 
+.filter-option {
+  font-family: 'PT Sans';
+}
+
 .filters legend {
+  font-family: 'PT Sans';
   font-size: 17px;
   line-height: 30px;
+  text-transform: uppercase;
 }
 
 .filters fieldset{
@@ -490,7 +522,7 @@ a {
 }
 
 .footer-container {
-  width: 940px;
+  width: 960px;
   padding: 0 10px;
   display: flex;
   justify-content: space-between;
@@ -498,6 +530,13 @@ a {
 
 .main-footer {
   margin-top: 85px;
+  width: 100%;  
+}
+
+.main-footer-container {
+  margin: 0 auto;
+  width: 960px;
+  padding: 0 10px;
 }
 
 .main-footer ul {
@@ -512,6 +551,7 @@ a {
 .footer-up {
   background-color: #32425C;
   margin: 0;
+  width: 100%;
 }
 
 .footer-contacts {
@@ -521,11 +561,19 @@ a {
   color: #ffffff;
 }
 
+.footer-navigation-top {
+  font-family: 'Cuprum';
+}
+
 .footer-navigation-top a {
   width: 550px;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.footer-navigation-bottom {
+  font-family: 'Cuprum';
 }
 
 .footer-navigation-bottom a {
@@ -552,6 +600,7 @@ a {
   background-color: #293449;
   margin: 0;
   height: 105px;
+  width: 100%;
 }
 
 .footer-bottom p {
@@ -562,6 +611,12 @@ a {
 
 .footer-licence {
   color: #ffffff;
+  font-family: 'Cuprum';
+}
+
+.footer-feedback,
+.footer-copyright {
+  font-family: 'Cuprum';
 }
 
 .footer-feedback a,
